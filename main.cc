@@ -3,6 +3,7 @@
 #include <thread>
 #include <chrono>
 #include <swap_thread.h>
+#include <linux_pthread.h>
 
 using namespace std;
 
@@ -38,8 +39,11 @@ int main() {
 
   cout << "the final value of n is: "<< n << endl;
 
-  SwapThread st;
-  st.run();
+  // SwapThread st;
+  // st.run();
+  
+  LinuxPthread lpt;
+  lpt.run();
   
   return 0;
 }
