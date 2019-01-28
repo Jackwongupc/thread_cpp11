@@ -1,0 +1,6 @@
+cc_config(
+    extra_incs=[
+
+    ],
+    cxxflags = '-std=c++11',
+)
