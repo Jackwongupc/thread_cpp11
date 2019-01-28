@@ -1,0 +1,8 @@
+#            ignore file or folder
+build64_release/
+
+.Building.lock
+.sconsign.dblite
+blade-bin/
+
+
