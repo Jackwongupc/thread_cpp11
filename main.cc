@@ -2,6 +2,7 @@
 #include <utility>
 #include <thread>
 #include <chrono>
+#include <swap_thread.h>
 
 using namespace std;
 
@@ -36,6 +37,9 @@ int main() {
   }
 
   cout << "the final value of n is: "<< n << endl;
+
+  SwapThread st;
+  st.run();
   
   return 0;
 }
